@@ -61,4 +61,5 @@ public class Registru {
         return list;
     }
 
+
 }

@@ -18,10 +18,10 @@ public class Angajat extends Persoana{
 
     @Override
     public String toString() {
-        return "Angajat: " +
-                "Nume=  " + nume + '\'' +
-                "Varsta= " + varsta + '\'' +
-                "Job= " + locdemunca + '\'' +
-                 "\n";
+        return "Angajat{" +
+                "locdemunca='" + locdemunca + '\'' +
+                ", nume='" + nume + '\'' +
+                ", varsta=" + varsta +
+                '}';
     }
 }
