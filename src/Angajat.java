@@ -1,19 +1,18 @@
 import java.util.Arrays;
 
-public class Angajat extends Persoana{
-     String locdemunca;
-    Persoana muncitor[];
-    public Angajat(String nume,int varsta,String locdemunca){
-        //this.nume=nume;
-        //this.varsta=varsta;
-        super(nume,varsta);
-        this.locdemunca=locdemunca;
+public class Angajat extends Persoana {
+    String locdemunca;
+
+
+    public Angajat(String nume, int varsta, String locdemunca) {
+        super(nume, varsta);
+        this.locdemunca = locdemunca;
     }
-    public Angajat()
-    {
-        nume=null;
-        varsta=0;
-        locdemunca=null;
+
+    public Angajat() {
+        nume = null;
+        varsta = 0;
+        locdemunca = null;
     }
 
     @Override
@@ -22,6 +21,6 @@ public class Angajat extends Persoana{
                 "locdemunca='" + locdemunca + '\'' +
                 ", nume='" + nume + '\'' +
                 ", varsta=" + varsta +
-                '}';
+                '}' + '\n';
     }
 }

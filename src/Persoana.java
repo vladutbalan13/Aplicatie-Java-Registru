@@ -10,13 +10,13 @@ public class Persoana {
     }
 
     public Persoana() {
-        nume="";
-        varsta=0;
+        nume = "";
+        varsta = 0;
     }
-    public Persoana(String nume,int varsta)
-    {
-      this.nume=nume;
-      this.varsta=varsta;
+
+    public Persoana(String nume, int varsta) {
+        this.nume = nume;
+        this.varsta = varsta;
     }
 
 }
